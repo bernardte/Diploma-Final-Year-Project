@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .quantity {
+    margin: 40px 0px 0px 0px;
+    border: 0px solid yellow;
+    position: relative;
+  }
+  
+  
+
+  .minus {
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-radius: 40px;
+    padding: 3px 0px 0px 3px;
+    border: 0px solid #ddd;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    cursor: pointer;
+    color: var(--bg-color);
+    position: absolute;
+    top: 2px;
+    left: 1px;
+    cursor: pointer;
+    color: #C7C8CC;
+  }
+
+  .plus {
+    width: 30px;
+    height: 30px;
+    border: 0px solid var(--bg-color);
+    border-radius: 40px;
+    background-color: transparent;
+    text-align: center;
+    padding: 3px 0px 0px 0px;
+    position: absolute;
+    display: inline-block;
+    left: 77px;
+    top: 2px;
+    cursor: pointer;
+    color: #C7C8CC;
+  }
+  
+  
+  .input-box {
+    height: 35px;
+    width: 110px;
+    text-align: center;
+    font-size: 26px;
+    border: 1px solid #C7C8CC;
+    border-radius: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14pt;
+    background-color: transparent;
+    color: var(--bg-color);
+  }
+  
+  /* Hide the number input spin buttons */
+  .input-box::-webkit-inner-spin-button,
+  .input-box::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+
+
+/* demo */
+ body {
+   font-family: sans-serif;
+   background-color: lightblue;
+}
+
+input {
+   font-size: 1em;
+   background-color: #fff;
+   border: 0;
+}
+
+[type="number"] {
+   margin-bottom: 10px;
+}
+  
+  

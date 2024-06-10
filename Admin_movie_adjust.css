@@ -1,0 +1,82 @@
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label{
+    margin: 10px;
+    font-weight: 700;
+    color: var(--dark);
+}
+
+input[type='file']{
+    width: 200px;
+}
+
+button[type='submit']{
+    border-radius: 5px;
+    padding: 3px;
+    font-weight: 500;
+}
+
+input[type='file']{
+    color: var(--dark);
+}
+
+button[type='submit']:hover{
+    background-color: grey;
+    color: var(--dark);
+}
+
+.bottom-data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* table */
+.row{
+    display: flex;
+    background: var(--dark);
+    border-radius: 3px solid var(--dark);
+    background: var(--dark);
+    text-align: center;
+    align-items: center;
+    padding-right: 50px;
+}
+
+    
+.data{
+    color: var(--light);
+    padding: 10px;
+    width: 175px;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+.header h1{
+    margin: 30px;
+    color: var(--dark);
+}
+
+/* button */
+.btn{
+    padding: 0.6rem 1.4rem;
+    background-color: rgba(33, 235, 255, .5);
+    color:var(--light);
+    font-weight: 600;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    border: 3px solid #21ebff;
+}
+
+.btn:hover{
+    background-color: #21ebff;
+    cursor: pointer;
+    box-shadow: 0 0 20px #21ebff;
+}
+
+
+
