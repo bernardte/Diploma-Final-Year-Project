@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* sidebar */
+:root{
+    --light: #f6f6f9;
+    --primary: #1976D2;
+    --light-primary: #CFE8FF;
+    --grey: #eee;
+    --dark-grey: #AAAAAA;
+    --dark: #363949;
+    --danger: #D32F2F;
+    --light-danger: #FECDD3;
+    --warning: #FBC02D;
+    --light-warning: #FFF2c6;
+    --succss: #388e3c;
+    --light-success:#BBF7D0;
+    --row-hover: rgba(0, 139, 139, .6);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+i{
+    font-size: 2.2rem;
+    min-width: 60px;
+    display: flex;
+    padding-left: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+/* control black theme */
+body.dark{
+    --light: #181a1e;
+    --grey: #25252c;
+    --dark: #fbfbfb;
+}
+
+body{
+    background: var(--grey);
+    overflow-x: hidden;
+}
+
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: var(--light);
+    width: 230px;
+    height: 100%;
+    z-index: 2000;
+    overflow-x: hidden;
+    /* Scroll bar dissapear */ 
+    scrollbar-width: none;
+    transition: all 0.3s ease;
+}
+
+.sidebar::webkit-scrollbar{
+    display: none;
+}
+
+.sidebar.close{
+    width: 60px;
+    overflow: hidden;
+}
+
+.logo{
+    position: relative;
+    width: 200px;
+    height: 150px;
+    margin: 0 20px;
+    padding-bottom: 20px;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: ceneter;
+    box-sizing: content-box;
+    z-index: 500;
+}
+
+/* When the width is 60px logo will not display */
+@media (min-width: 60px){
+    .sidebar.close  .logo{
+        display: none;
+    }
+}
+
+.sidebar .side-menu{
+    width: 100%;
+    margin-top: 48px;
+}
+
+.sidebar .side-menu li{
+    height: 48px;
+    background: transparent;
+    margin-left: 6px;
+    border-radius: 48px 0 0 48px;
+    padding: 2px;
+}
+
+.sidebar .side-menu li.active{
+    background-color: var(--grey);
+    position: relative;
+}
+
+.sidebar .side-menu li.active::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    top: -40px;
+    right: 0px;
+    box-shadow: 20px 20px 0 var(--grey);
+    z-index: -1;
+}
+
+.sidebar .side-menu li.active::after{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    bottom: -40px;
+    right: 0;
+    box-shadow: 20px -20px 0 var(--grey);
+    z-index: -1;
+}
+
+/* Adding the block to the class = "active" on the side menu*/
+.sidebar .side-menu li a{
+    width: 100%;
+    height: 100%;
+    background: var(--light);
+    display: flex;
+    align-items: center;
+    border-radius: 48px;
+    font-size: 16px;
+    color: var(--dark);
+    white-space: nowrap;
+    overflow-x: hidden;
+    transition: all 0.3s ease;
+}
+
+/* add green color when the user click to the certain sidebar */
+.sidebar .side-menu li.active a{
+    color: var(--succss);
+}
+
+.side .close .side-menu li a{
+    width: calc(28px -(4px * 2));
+    transition: all 0.3s ease;
+}
+
+.sidebar .side-menu li a i{
+    min-width: calc(60px - (4px + 6px));
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: center;
+}
+
+.sidebar .side-menu li a.logout{
+    color: var(--danger);
+    cursor: pointer;
+}
+
+/* bar icons */
+.fa-bars{
+    margin-left: 10px;
+}
+
+/* main content */
+.content{
+    position: relative;
+    width: calc(100% - 230px);
+    left: 230px;
+    transition: all 0.3 ease;
+}
+
+.sidebar.close~.content{
+    width: calc(100% - 60px);
+    left: 60px;
+}
+
+.content nav{
+    height: 56px;
+    background: var(--light);
+    padding: 0 24px 0 0;
+    display: flex;
+    align-items: center;
+    grid-gap: 24px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.content nav::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: -40px;
+    left: 0;
+    border-radius: 50%;
+    box-shadow: -20px -20px 0 var(--light);
+}
+
+.content nav a{ 
+    color: var(--dark);
+}
+
+.content nav .fa-bars{
+    cursor: pointer;
+    color: var(--dark);
+    max-width: 400px;
+    width: 100%;
+    margin-right: auto;
+}
+
+/* bell */
+.content nav .notify{
+    font-size: 20px;
+    position: relative; 
+}
+
+.content nav .notify .count{
+    position: absolute;
+    top: -6px;
+    right: 13px;
+    width: 20px;
+    height: 20px;
+    background: var(--danger);
+    border-radius: 50%;
+    color: var(--light);
+    border: 2px solid var(--light);
+    font-weight: 700;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content nav .profile img{
+    margin-top: 20px;
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+}
+
+/* Check box theme background color changing*/
+.content nav .theme-toggle{
+    display: block;
+    min-width: 50px;
+    height: 25px;
+    background: var(--grey);
+    cursor: pointer;
+    position: relative;
+    border-radius: 25px;
+}
+
+.content nav .theme-toggle::before{
+    content: "";
+    position:absolute;
+    top: 2px;
+    left: 2px;
+    bottom: 2px;
+    width: calc(25px - 4px);
+    background: var(--primary);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.content nav #theme-toggle:checked+.theme-toggle::before{
+    left: calc(100% - (25px - 4px) - 2px);
+}
+
+.content main{
+    width: 100%;
+    padding: 36px 24px;
+    max-height: calc(100vh  - 56px);
+}
+
+.content main .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    grid-gap: 16px;
+    flex-wrap: wrap;
+}
+
+.content main .header .left h1{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 10PX;
+    color: var(--dark);
+}
+
+/* download csv */
+.content main .header .report{
+    height: 36px;
+    padding: 0 10px;
+    border-radius: 36px;
+    background-color: var(--primary);
+    color: var(--light);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+    
+}
+
+.content main .header .report:hover{
+    box-shadow: 2px -2px 10px var(--primary);
+    background-color: #b3daff;
+}
+
+/* insight */
+.content main .insight{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-gap: 24px;
+    margin-top:36px; 
+}
+
+.content main .insight li{
+    padding: 24px;
+    background: var(--light);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    grid-gap: 24px;
+    cursor: pointer;
+}
+
+.content main .insight li:nth-child(1) {
+    background: var(--light-primary);
+    color: var(--primary);
+}
+
+.content main .insight li:nth-child(2) {
+    background: var(--light-warning);
+    color: var(--warning);
+}
+
+.content main .insight li:nth-child(3){
+    background: var(--light-success);
+    color: var(--success);
+}
+
+.content main .insight li:nth-child(4){
+    background: var(--light-warning);
+    color: var(--danger);
+}
+
+.content main .insight li .info h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #0000ff;
+}
+
+.content main .insight li .info p{
+    color: #0000ff;
+}
+
+.header-title h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: var(--dark);
+}
+

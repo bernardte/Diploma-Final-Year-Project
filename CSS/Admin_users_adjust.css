@@ -1,0 +1,7 @@
+tbody .row .data{
+    margin: 40px 0 40px 0;
+}
+
+thead .row:hover{
+    background-color: var(--dark);
+}

@@ -1,0 +1,348 @@
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1},{"id":3,"name":"Cocacola","images":"Cocacola.png","price":12,"quantity":1}]
+Received raw data: 
+Received raw data: 
+Received raw data: 
+Received raw data: 
+Received raw data: 
+Received raw data: 
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1},{"id":3,"name":"Cocacola","images":"Cocacola.png","price":12,"quantity":1}]
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1},{"id":3,"name":"Cocacola","images":"Cocacola.png","price":12,"quantity":1}]
+Decoded data: Array
+(
+    [0] => 
+    [1] => Array
+        (
+            [id] => 2
+            [name] => Chcicken Nuggets
+            [images] => Chicken Nuggets.png
+            [price] => 13
+            [quantity] => 1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => Cocacola
+            [images] => Cocacola.png
+            [price] => 12
+            [quantity] => 1
+        )
+
+)
+
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1},{"id":3,"name":"Cocacola","images":"Cocacola.png","price":12,"quantity":1}]
+Decoded data: Array
+(
+    [0] => 
+    [1] => Array
+        (
+            [id] => 2
+            [name] => Chcicken Nuggets
+            [images] => Chicken Nuggets.png
+            [price] => 13
+            [quantity] => 1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => Cocacola
+            [images] => Cocacola.png
+            [price] => 12
+            [quantity] => 1
+        )
+
+)
+
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1},{"id":3,"name":"Cocacola","images":"Cocacola.png","price":12,"quantity":1}]
+Decoded data: Array
+(
+    [0] => 
+    [1] => Array
+        (
+            [id] => 2
+            [name] => Chcicken Nuggets
+            [images] => Chicken Nuggets.png
+            [price] => 13
+            [quantity] => 1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => Cocacola
+            [images] => Cocacola.png
+            [price] => 12
+            [quantity] => 1
+        )
+
+)
+
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1},{"id":3,"name":"Cocacola","images":"Cocacola.png","price":12,"quantity":1}]
+Decoded data: Array
+(
+    [0] => 
+    [1] => Array
+        (
+            [id] => 2
+            [name] => Chcicken Nuggets
+            [images] => Chicken Nuggets.png
+            [price] => 13
+            [quantity] => 1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => Cocacola
+            [images] => Cocacola.png
+            [price] => 12
+            [quantity] => 1
+        )
+
+)
+
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1},{"id":3,"name":"Cocacola","images":"Cocacola.png","price":12,"quantity":1}]
+Decoded data: Array
+(
+    [0] => 
+    [1] => Array
+        (
+            [id] => 2
+            [name] => Chcicken Nuggets
+            [images] => Chicken Nuggets.png
+            [price] => 13
+            [quantity] => 1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => Cocacola
+            [images] => Cocacola.png
+            [price] => 12
+            [quantity] => 1
+        )
+
+)
+
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1},{"id":3,"name":"Cocacola","images":"Cocacola.png","price":12,"quantity":1}]
+Decoded data: Array
+(
+    [0] => 
+    [1] => Array
+        (
+            [id] => 2
+            [name] => Chcicken Nuggets
+            [images] => Chicken Nuggets.png
+            [price] => 13
+            [quantity] => 1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => Cocacola
+            [images] => Cocacola.png
+            [price] => 12
+            [quantity] => 1
+        )
+
+)
+
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1},{"id":3,"name":"Cocacola","images":"Cocacola.png","price":12,"quantity":1}]
+Decoded data: Array
+(
+    [0] => 
+    [1] => Array
+        (
+            [id] => 2
+            [name] => Chcicken Nuggets
+            [images] => Chicken Nuggets.png
+            [price] => 13
+            [quantity] => 1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => Cocacola
+            [images] => Cocacola.png
+            [price] => 12
+            [quantity] => 1
+        )
+
+)
+
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1},{"id":3,"name":"Cocacola","images":"Cocacola.png","price":12,"quantity":1}]
+Decoded data: Array
+(
+    [0] => 
+    [1] => Array
+        (
+            [id] => 2
+            [name] => Chcicken Nuggets
+            [images] => Chicken Nuggets.png
+            [price] => 13
+            [quantity] => 1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => Cocacola
+            [images] => Cocacola.png
+            [price] => 12
+            [quantity] => 1
+        )
+
+)
+
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1},{"id":3,"name":"Cocacola","images":"Cocacola.png","price":12,"quantity":1}]
+Decoded data: Array
+(
+    [0] => 
+    [1] => Array
+        (
+            [id] => 2
+            [name] => Chcicken Nuggets
+            [images] => Chicken Nuggets.png
+            [price] => 13
+            [quantity] => 1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => Cocacola
+            [images] => Cocacola.png
+            [price] => 12
+            [quantity] => 1
+        )
+
+)
+
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1},{"id":3,"name":"Cocacola","images":"Cocacola.png","price":12,"quantity":1}]
+Decoded data: Array
+(
+    [0] => 
+    [1] => Array
+        (
+            [id] => 2
+            [name] => Chcicken Nuggets
+            [images] => Chicken Nuggets.png
+            [price] => 13
+            [quantity] => 1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => Cocacola
+            [images] => Cocacola.png
+            [price] => 12
+            [quantity] => 1
+        )
+
+)
+
+Received raw data: 
+No data received
+Received raw data: 
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1},{"id":3,"name":"Cocacola","images":"Cocacola.png","price":12,"quantity":1}]
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1},{"id":3,"name":"Cocacola","images":"Cocacola.png","price":12,"quantity":1}]
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1},{"id":3,"name":"Cocacola","images":"Cocacola.png","price":12,"quantity":1}]
+Received raw data: 
+Received raw data: 
+Received raw data: [{"id":1,"name":"Caramel Popcorn","images":"Caramel popcorn.png","price":20,"quantity":2},{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1}]
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1},{"id":3,"name":"Cocacola","images":"Cocacola.png","price":12,"quantity":1}]
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1},{"id":3,"name":"Cocacola","images":"Cocacola.png","price":12,"quantity":1}]
+Received raw data: [null,null,{"id":3,"name":"Cocacola","images":"Cocacola.png","price":12,"quantity":1}]
+Received raw data: [null,null,{"id":3,"name":"Cocacola","images":"Cocacola.png","price":12,"quantity":1}]
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1},{"id":3,"name":"Cocacola","images":"Cocacola.png","price":12,"quantity":1}]
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1},null]
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":26,"quantity":2},null]
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":39,"quantity":3},null]
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":39,"quantity":3},{"id":3,"name":"Cocacola","images":"Cocacola.png","price":12,"quantity":1}]
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1},{"id":3,"name":"Cocacola","images":"Cocacola.png","price":12,"quantity":1}]
+Received raw data: null
+Received raw data: null
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1},{"id":3,"name":"Cocacola","images":"Cocacola.png","price":12,"quantity":1}]
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1},{"id":3,"name":"Cocacola","images":"Cocacola.png","price":24,"quantity":2}]
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1},{"id":3,"name":"Cocacola","images":"Cocacola.png","price":24,"quantity":2}]
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1},{"id":3,"name":"Cocacola","images":"Cocacola.png","price":12,"quantity":1}]
+Decoded data: Array
+(
+    [0] => 
+    [1] => Array
+        (
+            [id] => 2
+            [name] => Chcicken Nuggets
+            [images] => Chicken Nuggets.png
+            [price] => 13
+            [quantity] => 1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => Cocacola
+            [images] => Cocacola.png
+            [price] => 12
+            [quantity] => 1
+        )
+
+)
+
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1},{"id":3,"name":"Cocacola","images":"Cocacola.png","price":12,"quantity":1}]
+Decoded data: Array
+(
+    [0] => 
+    [1] => Array
+        (
+            [id] => 2
+            [name] => Chcicken Nuggets
+            [images] => Chicken Nuggets.png
+            [price] => 13
+            [quantity] => 1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => Cocacola
+            [images] => Cocacola.png
+            [price] => 12
+            [quantity] => 1
+        )
+
+)
+
+Received raw data: [null,{"id":2,"name":"Chcicken Nuggets","images":"Chicken Nuggets.png","price":13,"quantity":1},{"id":3,"name":"Cocacola","images":"Cocacola.png","price":12,"quantity":1}]
+Decoded data: Array
+(
+    [0] => 
+    [1] => Array
+        (
+            [id] => 2
+            [name] => Chcicken Nuggets
+            [images] => Chicken Nuggets.png
+            [price] => 13
+            [quantity] => 1
+        )
+
+    [2] => Array
+        (
+            [id] => 3
+            [name] => Cocacola
+            [images] => Cocacola.png
+            [price] => 12
+            [quantity] => 1
+        )
+
+)
+
+Received raw data: 
+No data received
+Received raw data: 
+No data received

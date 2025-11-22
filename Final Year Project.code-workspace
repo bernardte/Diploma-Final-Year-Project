@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Final Year Project"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Final Year Project"
+	}
+}
